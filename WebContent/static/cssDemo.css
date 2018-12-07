@@ -1,0 +1,341 @@
+﻿/*公共样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+input {
+	background-color: transparent;
+	border: none;
+	vertical-align: top;
+}
+
+/*header区域   */
+.header {
+	height: 150px;
+}
+
+.header_top {
+	height: 110px;
+	background-color: #8F071C;
+}
+
+.header_inner {
+	height: 110px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 14px;
+	height: 82px;
+	width: 306px;
+}
+
+.form {
+	height: 30px;
+	width: 250px;
+	float: right;
+	margin-top: 60px;
+}
+
+.form_txt {
+	height: 28px;
+	width: 198px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	line-height: 28px;
+	border: 1px #8F071C solid;
+	background-color: #FFFFFF;
+}
+
+.form_btn {
+	height: 28px;
+	width: 50px;
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	line-height: 28px;
+	background-color: #CCCCCC;
+}
+
+.form2 {
+	height: 20px;
+	width: 40px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+	background-color: #CCCCCC;
+}
+
+.form1 {
+	height: 20px;
+	width: 140px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+	border: 1px #8F071C solid;
+	background-color: #FFFFFF;
+}
+
+.header_bot {
+	height: 40px;
+	background-color: #C20723;
+}
+
+.header_nav {
+	height: 30px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header_nav li {
+	float: left;
+}
+
+.header_nav .li1 {
+	float: left;
+	background-color: #640614;
+}
+
+.header_nav li a {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 40px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 10px;
+	padding-top: 9px;
+}
+
+.header_nav li a:hover {
+	background-color: #640614;
+}
+
+li {
+	list-style: none
+}
+
+/*banner区域   */
+.banner {
+	height: 350px;
+}
+
+/*main区域   */
+.main {
+	height: 580px;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.main_left {
+	height: 580px;
+	width: 250px;
+	float: left;
+}
+
+.main_right {
+	height: 580px;
+	width: 720px;
+	float: right;
+	margin-left: 30px;
+}
+
+.left {
+	height: 40px;
+	width: 250px;
+	background-image: url(images/navigation_03.jpg);
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.left_1 {
+	height: 50px;
+	width: 250px;
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.left_1 a {
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.left_1 a:hover {
+	color: #C20723;
+}
+
+.left_2 {
+	height: 200px;
+	width: 250px;
+}
+
+.jianjie {
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	line-height: 50px;
+	text-align: right;
+}
+
+.jianjie a {
+	color: black;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.jianjie a:hover {
+	color: #C20723;
+}
+
+.right_top {
+	height: 40px;
+	width: 720px;
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.right_top a {
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.right_top a:hover {
+	color: #C20723;
+}
+
+.right_center {
+	height: 480px;
+	width: 720px;
+}
+
+.right_bot {
+	height: 60px;
+	width: 720px;
+}
+
+/*footer区域   */
+.footer {
+	height: 150px;
+}
+
+.footer_top {
+	height: 120px;
+	background-color: #C20723;
+}
+
+.footer_top_inner {
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.footer_l {
+	width: 330px;
+	height: 120px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: black;
+	line-height: 120px;
+}
+
+.footer_m {
+	width: 400px;
+	height: 120px;
+	float: left;
+}
+
+.footer_txt1 {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: black;
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+.footer_txt2 {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: black;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.footer_r {
+	width: 270px;
+	height: 120px;
+	float: left;
+}
+
+.footer a {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: black;
+}
+
+.footer a:hover {
+	color: #c74023;
+}
+
+.footer_bot {
+	height: 30px;
+	background-color: #000000;
+}
+
+.footer_bot_inner {
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.footer_bot_inner a {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: white;
+}
+
+.footer_bot_inner a:hover {
+	color: #c74023;
+}
+
+.gohome {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 100px;
+	bottom: 50px;
+}
