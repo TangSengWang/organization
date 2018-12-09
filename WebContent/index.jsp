@@ -12,7 +12,7 @@
 		<div class="header_top">
 			<div class="header_inner">
 				<div class="logo">
-					<img src="images/368990c1aaedff2fbb5c2ad39a8a3a5.png" alt="" />
+					<img src="images/school.png" alt="" />
 				</div>
 				<div class="form">
 					<form>
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="main_top_2">
-				<div class="main_top_11">
+				<div class="main_top_11"><img src="images/midbg.png"/>
 					<div class="wenzi1">最新公告</div>
 					<div class="wenzi2">
 						<a href="news_announce.jsp">More>></a>

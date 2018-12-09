@@ -14,7 +14,7 @@
 		<div class="header_top">
 			<div class="header_inner">
 				<div class="logo">
-				<img src="images/368990c1aaedff2fbb5c2ad39a8a3a5.png" alt="" />
+				<img src="images/school.png" alt="" />
 				</div>
 				<div class="form">
 					<form>

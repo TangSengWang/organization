@@ -25,5 +25,5 @@
 	</div>
 
 	<div class="gohome">
-		<a href="#"><img src="images/tubiao_03.png" /></a>
+		<a href="#"><img src="images/gohome.png" /></a>
 	</div>
