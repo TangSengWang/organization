@@ -116,23 +116,24 @@ a {
 		<div class="banner_login">
 			<div class="login_top">登 &nbsp;&nbsp;&nbsp;录</div>
 			<div class="login_center">
-				<form>
+				<form action="TestServlet" method="get">
 					<div class="zhanghao">
-						账号：<input type="text" placeholder="手机号/学号" class="login_text" />
+						账号：<input type="text" placeholder="手机号/学号" class="login_text" name="username" />
 					</div>
 					<br />
 					<br />
 					<div class="mima">
-						密码：<input type="password" maxlength="16" class="login_password" />
+						密码：<input type="password" maxlength="16" class="login_password" name="userpassword" />
 					</div>
 					<br />
 					<br />
+					<input type="submit" name="提交" />
 				</form>
 			</div>
 			<div class="login_bot">
 				<div class="bot_button">
 					<div class="button">
-						<a href="#"><span>登录</span></a>
+						<a href="#" ><span>登录</span></a>
 					</div>
 				</div>
 				<div class="bot_button">
@@ -149,4 +150,7 @@ a {
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+
+</script>
 </html>
