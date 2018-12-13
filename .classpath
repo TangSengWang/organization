@@ -13,5 +13,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="G:/尚硅谷/javaEE/!!!MYSQL&amp;JDBC上课资料_v2/mysql-jdbc课件/JDBC/Driver/数据库连接池驱动/druid/druid/druid-1.1.10.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -1,32 +1,41 @@
 package com.xztv.util;
 
 
+import java.io.FileInputStream;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
+
+import javax.sql.DataSource;
+
+import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 
 
 public class JDBCUtils {
-	static String URL = "jdbc:mysql://localhost:3306/league";
-	static String USERNAME = "root";
-	static String PASSWORD = "1";
+	static DataSource createDataSource;
 	static {
 		try {
-			  Class.forName("com.mysql.jdbc.Driver");
+			//加载配置文件
+			Properties properties = new Properties();
+			properties.load(new FileInputStream("src\\druid.properties"));
+			
+			//通过连接工厂创建连接池对象
+			createDataSource = DruidDataSourceFactory.createDataSource(properties);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
 	}
+	
 	private static Map<Thread, Connection> map = new ConcurrentHashMap<Thread, Connection>();
 	public static Connection getConnection() {
 		Connection conn = map.get(Thread.currentThread());
 		if(conn==null) {
 			try {
-				conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+				conn = createDataSource.getConnection();
 				map.put(Thread.currentThread() , conn);
 			} catch (SQLException e) {
 				e.printStackTrace();
